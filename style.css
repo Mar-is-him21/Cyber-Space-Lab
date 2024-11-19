@@ -1,0 +1,50 @@
+* {
+    background-color: black;
+}
+
+img{
+    margin: 0 auto;
+    display: block;
+}
+
+#b{
+    width: 800px;
+    aspect-ratio: 16/9;
+    background-color: #525252;
+    background-image: url("https://res.cloudinary.com/dwuwuaov5/image/upload/v1551448171/nasaphoto.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    font-size: 58px;
+    line-height: 50px;
+    color: rgb(233, 118, 118);
+    background-color: rgba(160, 20, 196, 0.7);
+    padding: 10px;
+}
+p{
+    color: rgb(14, 231, 130);
+}
+
+audio{
+    width: 80%;
+    height: 100px;
+    background-color: rgb(0, 0, 0) !important;
+}
+
+video{
+    width: 960px;
+}
+
+#vid_title{
+    z-index: 1;
+    position: relative;
+    top: -250px;
+    color: rgb(182, 230, 219);
+    width: 500px;
+}
